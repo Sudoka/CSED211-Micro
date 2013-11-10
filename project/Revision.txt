@@ -1,0 +1,19 @@
+< SMDK2410 (MCU S3C2410X01) Test Code Revision History >
+
+Make a draft by On-Pil Shin                          Last Update : June 13, 2003
+
+
+1. Ver 1.0 (20020530) : First upload on web site
+
+2. Ver 1.1 (20020801)
+   - LCD Palette RAM test deleted in test items, but source code are included files.
+   - Added USB FIFO memory test and source code.
+   - Added Intel Strata Flash (NOR Flash) program in NOR Flash Program.
+   - Others.
+
+3. Ver 1.2 (20030613)
+   - PowerOff.c : Power-off mode are reduced current.
+              LCDVFn is connected the analog circuit in LCD. So, this signal should be output L.
+   - ts_auto.c : X,Y data auto read iteration changed from once to four.
+   - 2410init.s : ARM core burst mode enable
+   - Added erase program (K9S1208, 64MB)

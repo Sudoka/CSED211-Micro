@@ -1,0 +1,1487 @@
+
+Inter-AREA References
+
+2410init.o(Init) refers to 2410test.o(C$$code) for Main
+games.o(Space_Invader) refers to games.o(Space_Invader_Data)
+games.o(Space_Invader2) refers to games.o(Space_Invader_Data)
+2410test.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410test.o(C$$code) refers to 2410test.o(C$$data) for function
+2410test.o(C$$code) refers to lcd.o(C$$code) for Test_Lcd_Tft_8Bit_240320_On
+2410test.o(C$$code) refers to PowerOff.o(C$$code) for Check_PowerOffWakeUp
+2410test.o(C$$code) refers to mmu.o(C$$code) for MMU_Init
+2410test.o(C$$data) refers to 2410test.o(C$$code)
+2410test.o(C$$data) refers to game.o(C$$code) for gamestart
+2410test.o(C$$data) refers to flash.o(C$$code) for ProgramFlash
+2410test.o(C$$data) refers to k9s1208.o(C$$code) for TestECC
+2410test.o(C$$data) refers to cache.o(C$$code) for Test_Cache
+2410test.o(C$$data) refers to PowerOff.o(C$$code) for Test_BattFaultInterrupt
+2410test.o(C$$data) refers to etc.o(C$$code) for Test_NecInterrupt
+2410test.o(C$$data) refers to stone.o(C$$code) for Test_ISram
+2410test.o(C$$data) refers to nwait.o(C$$code) for Test_WaitPin
+2410test.o(C$$data) refers to 2410swi.o(C$$code) for Test_SwiIrq
+2410test.o(C$$data) refers to 2410etc.o(C$$code) for ReadPageMode
+2410test.o(C$$data) refers to pd6710.o(C$$code) for Test_PD6710
+2410test.o(C$$data) refers to cpuspeed.o(C$$code) for Test_CpuSpeed
+2410test.o(C$$data) refers to timer.o(C$$code) for Test_WDT_IntReq
+2410test.o(C$$data) refers to usbfifo.o(C$$code) for Test_USBFIFO
+2410test.o(C$$data) refers to uart2.o(C$$code) for Test_Uart2_Fifo
+2410test.o(C$$data) refers to uart1.o(C$$code) for Test_Uart1_AfcRx
+2410test.o(C$$data) refers to uart0.o(C$$code) for Test_Uart0_AfcRx
+2410test.o(C$$data) refers to spi.o(C$$code) for Test_Spi_S_Int
+2410test.o(C$$data) refers to sdi.o(C$$code) for Test_SDI
+2410test.o(C$$data) refers to 2410RTC.o(C$$code) for Test_Rtc_Tick
+2410test.o(C$$data) refers to pwr_c.o(C$$code) for MeasurePowerConsumption
+2410test.o(C$$data) refers to idle.o(C$$code) for Test_IdleModeHard
+2410test.o(C$$data) refers to power.o(C$$code) for Test_HoldMode
+2410test.o(C$$data) refers to lcd.o(C$$code) for Test_Lcd_Tft_16Bit_640480_Hwswp
+2410test.o(C$$data) refers to palette.o(C$$code) for Test_PaletteMemory
+2410test.o(C$$data) refers to IrDA.o(C$$code) for Test_IrDA_Tx
+2410test.o(C$$data) refers to 2410int.o(C$$code) for Change_IntPriorities
+2410test.o(C$$data) refers to 2410IIC.o(C$$code) for Test_Iic2
+2410test.o(C$$data) refers to eint.o(C$$code) for Test_Eint
+2410test.o(C$$data) refers to extdma.o(C$$code) for Test_Dma0Xdreq
+2410test.o(C$$data) refers to dma2.o(C$$code) for Test_DMAWorst
+2410test.o(C$$data) refers to dma.o(C$$code) for Test_DMA
+2410test.o(C$$data) refers to ts_auto.o(C$$code) for Ts_Auto
+2410test.o(C$$data) refers to ts_sep.o(C$$code) for Ts_Sep
+2410test.o(C$$data) refers to adc.o(C$$code) for Test_DMA_Adc
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_pubnames) refers to 2410test.o(.debug_info)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to lcdlib.o(C$$data) for frameBuffer16BitTft800600
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_pubnames) refers to 2410test.o(.debug_info)
+2410test.o(.debug_info) refers to glib.o(C$$data) for PutPixel
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_pubnames) refers to 2410test.o(.debug_info)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to uart0.o(C$$data) for rxdataCk
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_pubnames) refers to 2410test.o(.debug_info)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_line) refers to 2410test.o(C$$code)
+2410test.o(.debug_info) refers to 2410test.o(.debug_loc)
+2410test.o(.debug_info) refers to 2410test.o(C$$code)
+2410test.o(.debug_info) refers to 2410test.o(C$$data) for function
+2410test.o(.debug_info) refers to 2410test.o(.debug_line)
+2410test.o(.debug_info) refers to 2410test.o(.debug_macinfo)
+2410test.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410test.o(.debug_pubnames) refers to 2410test.o(.debug_info)
+2410test.o(.debug_frame) refers to 2410test.o(C$$code)
+2410lib.o(C$$code) refers to 2410slib.o(C$$code) for MMU_SetFastBusMode
+2410lib.o(C$$code) refers to vsprintf.o(C$$code) for vsprintf
+2410lib.o(C$$code) refers to ctype.o(C$$data) for __ctype
+2410lib.o(C$$code) refers to atoi.o(C$$code) for atoi
+2410lib.o(C$$code) refers to strlen.o(C$$code) for strlen
+2410lib.o(C$$code) refers to dfix.o(C$$code) for _dfix
+2410lib.o(C$$code) refers to drdv.o(C$$code) for _drdiv
+2410lib.o(C$$code) refers to dflt.o(C$$code) for _dflt
+2410lib.o(C$$code) refers to ddiv.o(C$$code) for _ddiv
+2410lib.o(C$$code) refers to dadd.o(C$$code) for _dadd
+2410lib.o(C$$code) refers to 2410lib.o(C$$data)
+2410lib.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_info) refers to ctype.o(C$$data) for __ctype
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_line) refers to 2410lib.o(C$$code)
+2410lib.o(.debug_info) refers to 2410lib.o(C$$code)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_loc)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_info) refers to 2410lib.o(C$$data)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_line)
+2410lib.o(.debug_info) refers to 2410lib.o(.debug_macinfo)
+2410lib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410lib.o(.debug_pubnames) refers to 2410lib.o(.debug_info)
+2410lib.o(.debug_frame) refers to 2410lib.o(C$$code)
+mmu.o(C$$code) refers to 2410slib.o(C$$code) for MMU_EnableDCache
+mmu.o(.debug_line) refers to mmu.o(C$$code)
+mmu.o(.debug_info) refers to mmu.o(C$$code)
+mmu.o(.debug_info) refers to mmu.o(.debug_loc)
+mmu.o(.debug_info) refers to mmu.o(.debug_line)
+mmu.o(.debug_info) refers to mmu.o(.debug_macinfo)
+mmu.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+mmu.o(.debug_pubnames) refers to mmu.o(.debug_info)
+mmu.o(.debug_frame) refers to mmu.o(C$$code)
+2410iis.o(C$$code) refers to 2410iis.o(C$$data)
+2410iis.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410iis.o(C$$code) refers to rt_udiv.o(C$$code) for __rt_udiv
+2410iis.o(.debug_line) refers to 2410iis.o(C$$code)
+2410iis.o(.debug_info) refers to 2410iis.o(C$$code)
+2410iis.o(.debug_info) refers to 2410iis.o(.debug_loc)
+2410iis.o(.debug_info) refers to 2410iis.o(C$$data) for Rx_Done
+2410iis.o(.debug_info) refers to 2410iis.o(.debug_line)
+2410iis.o(.debug_info) refers to 2410iis.o(.debug_macinfo)
+2410iis.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410iis.o(.debug_pubnames) refers to 2410iis.o(.debug_info)
+2410iis.o(.debug_frame) refers to 2410iis.o(C$$code)
+timer.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+timer.o(C$$code) refers to timer.o(C$$data)
+timer.o(.debug_info) refers to timer.o(.debug_macinfo)
+timer.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+timer.o(.debug_pubnames) refers to timer.o(.debug_info)
+timer.o(.debug_line) refers to timer.o(C$$code)
+timer.o(.debug_info) refers to timer.o(.debug_loc)
+timer.o(.debug_info) refers to timer.o(C$$code)
+timer.o(.debug_info) refers to timer.o(C$$data) for isWdtInt
+timer.o(.debug_info) refers to timer.o(.debug_line)
+timer.o(.debug_info) refers to timer.o(.debug_macinfo)
+timer.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+timer.o(.debug_pubnames) refers to timer.o(.debug_info)
+timer.o(.debug_frame) refers to timer.o(C$$code)
+2410RTC.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410RTC.o(C$$code) refers to 2410RTC.o(C$$data) for day
+2410RTC.o(C$$data) refers to 2410RTC.o(C$$code)
+2410RTC.o(.debug_line) refers to 2410RTC.o(C$$code)
+2410RTC.o(.debug_info) refers to 2410RTC.o(.debug_loc)
+2410RTC.o(.debug_info) refers to 2410RTC.o(C$$code)
+2410RTC.o(.debug_info) refers to 2410RTC.o(C$$data) for sec_tick
+2410RTC.o(.debug_info) refers to 2410RTC.o(.debug_line)
+2410RTC.o(.debug_info) refers to 2410RTC.o(.debug_macinfo)
+2410RTC.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410RTC.o(.debug_pubnames) refers to 2410RTC.o(.debug_info)
+2410RTC.o(.debug_frame) refers to 2410RTC.o(C$$code)
+2410IIC.o(C$$code) refers to 2410lib.o(C$$code) for Delay
+2410IIC.o(C$$code) refers to 2410IIC.o(C$$zidata)
+2410IIC.o(C$$code) refers to 2410IIC.o(C$$data)
+2410IIC.o(.debug_line) refers to 2410IIC.o(C$$code)
+2410IIC.o(.debug_info) refers to 2410IIC.o(C$$code)
+2410IIC.o(.debug_info) refers to 2410IIC.o(.debug_loc)
+2410IIC.o(.debug_info) refers to 2410IIC.o(C$$zidata)
+2410IIC.o(.debug_info) refers to 2410IIC.o(C$$data)
+2410IIC.o(.debug_info) refers to 2410IIC.o(.debug_line)
+2410IIC.o(.debug_info) refers to 2410IIC.o(.debug_macinfo)
+2410IIC.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410IIC.o(.debug_pubnames) refers to 2410IIC.o(.debug_info)
+2410IIC.o(.debug_frame) refers to 2410IIC.o(C$$code)
+2410int.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410int.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+2410int.o(C$$code) refers to 2410int.o(C$$data)
+2410int.o(.debug_line) refers to 2410int.o(C$$code)
+2410int.o(.debug_info) refers to 2410int.o(C$$code)
+2410int.o(.debug_info) refers to 2410int.o(.debug_loc)
+2410int.o(.debug_info) refers to 2410int.o(C$$data) for fiqCnt1
+2410int.o(.debug_info) refers to 2410int.o(.debug_line)
+2410int.o(.debug_info) refers to 2410int.o(.debug_macinfo)
+2410int.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410int.o(.debug_pubnames) refers to 2410int.o(.debug_info)
+2410int.o(.debug_frame) refers to 2410int.o(C$$code)
+2410swi.o(C$$code) refers to 2410swis.o(C$$code) for SWI_ISR
+2410swi.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410swi.o(C$$code) refers to 2410swi.o(C$$data)
+2410swi.o(.debug_info) refers to 2410swi.o(.debug_macinfo)
+2410swi.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410swi.o(.debug_line) refers to 2410swi.o(C$$code)
+2410swi.o(.debug_info) refers to 2410swi.o(C$$code)
+2410swi.o(.debug_info) refers to 2410swi.o(.debug_loc)
+2410swi.o(.debug_info) refers to 2410swi.o(C$$data) for swiVar
+2410swi.o(.debug_info) refers to 2410swi.o(.debug_line)
+2410swi.o(.debug_info) refers to 2410swi.o(.debug_macinfo)
+2410swi.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410swi.o(.debug_pubnames) refers to 2410swi.o(.debug_info)
+2410swi.o(.debug_frame) refers to 2410swi.o(C$$code)
+2410etc.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+2410etc.o(C$$code) refers to 2410slib.o(C$$code) for MMU_DisableAlignFault
+2410etc.o(.debug_line) refers to 2410etc.o(C$$code)
+2410etc.o(.debug_info) refers to 2410etc.o(C$$code)
+2410etc.o(.debug_info) refers to 2410etc.o(.debug_loc)
+2410etc.o(.debug_info) refers to 2410etc.o(.debug_line)
+2410etc.o(.debug_info) refers to 2410etc.o(.debug_macinfo)
+2410etc.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+2410etc.o(.debug_pubnames) refers to 2410etc.o(.debug_info)
+2410etc.o(.debug_frame) refers to 2410etc.o(C$$code)
+adc.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+adc.o(C$$code) refers to adc.o(C$$data)
+adc.o(.debug_line) refers to adc.o(C$$code)
+adc.o(.debug_info) refers to adc.o(.debug_loc)
+adc.o(.debug_info) refers to adc.o(C$$code)
+adc.o(.debug_info) refers to adc.o(C$$data) for end_test
+adc.o(.debug_info) refers to adc.o(.debug_line)
+adc.o(.debug_info) refers to adc.o(.debug_macinfo)
+adc.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+adc.o(.debug_pubnames) refers to adc.o(.debug_info)
+adc.o(.debug_frame) refers to adc.o(C$$code)
+dma.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+dma.o(C$$code) refers to dma.o(C$$data)
+dma.o(C$$code) refers to f2d.o(C$$code) for _f2d
+dma.o(C$$code) refers to fdiv.o(C$$code) for _fdiv
+dma.o(C$$code) refers to fflt.o(C$$code) for _fflt
+dma.o(C$$code) refers to ddiv.o(C$$code) for _ddiv
+dma.o(.debug_line) refers to dma.o(C$$code)
+dma.o(.debug_info) refers to dma.o(.debug_loc)
+dma.o(.debug_info) refers to dma.o(C$$code)
+dma.o(.debug_info) refers to dma.o(C$$data)
+dma.o(.debug_info) refers to dma.o(.debug_line)
+dma.o(.debug_info) refers to dma.o(.debug_macinfo)
+dma.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+dma.o(.debug_pubnames) refers to dma.o(.debug_info)
+dma.o(.debug_frame) refers to dma.o(C$$code)
+dma2.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+dma2.o(C$$code) refers to dma2.o(C$$data)
+dma2.o(.debug_line) refers to dma2.o(C$$code)
+dma2.o(.debug_info) refers to dma2.o(.debug_loc)
+dma2.o(.debug_info) refers to dma2.o(C$$code)
+dma2.o(.debug_info) refers to dma2.o(C$$data)
+dma2.o(.debug_info) refers to dma2.o(.debug_line)
+dma2.o(.debug_info) refers to dma2.o(.debug_macinfo)
+dma2.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+dma2.o(.debug_pubnames) refers to dma2.o(.debug_info)
+dma2.o(.debug_frame) refers to dma2.o(C$$code)
+eint.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Getch
+eint.o(.debug_line) refers to eint.o(C$$code)
+eint.o(.debug_info) refers to eint.o(C$$code)
+eint.o(.debug_info) refers to eint.o(.debug_loc)
+eint.o(.debug_info) refers to eint.o(.debug_line)
+eint.o(.debug_info) refers to eint.o(.debug_macinfo)
+eint.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+eint.o(.debug_pubnames) refers to eint.o(.debug_info)
+eint.o(.debug_frame) refers to eint.o(C$$code)
+extdma.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+extdma.o(C$$code) refers to extdma.o(C$$data)
+extdma.o(.debug_line) refers to extdma.o(C$$code)
+extdma.o(.debug_info) refers to extdma.o(C$$data)
+extdma.o(.debug_info) refers to extdma.o(C$$code)
+extdma.o(.debug_info) refers to extdma.o(.debug_loc)
+extdma.o(.debug_info) refers to extdma.o(.debug_line)
+extdma.o(.debug_info) refers to extdma.o(.debug_macinfo)
+extdma.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+extdma.o(.debug_pubnames) refers to extdma.o(.debug_info)
+extdma.o(.debug_frame) refers to extdma.o(C$$code)
+k9s1208.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+k9s1208.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+k9s1208.o(C$$code) refers to k9s1208.o(C$$data)
+k9s1208.o(.debug_line) refers to k9s1208.o(C$$code)
+k9s1208.o(.debug_info) refers to k9s1208.o(C$$code)
+k9s1208.o(.debug_info) refers to k9s1208.o(.debug_loc)
+k9s1208.o(.debug_info) refers to k9s1208.o(C$$data)
+k9s1208.o(.debug_info) refers to k9s1208.o(.debug_line)
+k9s1208.o(.debug_info) refers to k9s1208.o(.debug_macinfo)
+k9s1208.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+k9s1208.o(.debug_pubnames) refers to k9s1208.o(.debug_info)
+k9s1208.o(.debug_frame) refers to k9s1208.o(C$$code)
+nwait.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Getch
+nwait.o(.debug_line) refers to nwait.o(C$$code)
+nwait.o(.debug_info) refers to nwait.o(C$$code)
+nwait.o(.debug_info) refers to nwait.o(.debug_loc)
+nwait.o(.debug_info) refers to nwait.o(.debug_line)
+nwait.o(.debug_info) refers to nwait.o(.debug_macinfo)
+nwait.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+nwait.o(.debug_pubnames) refers to nwait.o(.debug_info)
+nwait.o(.debug_frame) refers to nwait.o(C$$code)
+sdi.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+sdi.o(C$$code) refers to sdi.o(C$$data)
+sdi.o(.debug_info) refers to sdi.o(.debug_macinfo)
+sdi.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+sdi.o(.debug_pubnames) refers to sdi.o(.debug_info)
+sdi.o(.debug_line) refers to sdi.o(C$$code)
+sdi.o(.debug_info) refers to sdi.o(.debug_loc)
+sdi.o(.debug_info) refers to sdi.o(C$$code)
+sdi.o(.debug_info) refers to sdi.o(C$$data) for RCA
+sdi.o(.debug_info) refers to sdi.o(.debug_line)
+sdi.o(.debug_info) refers to sdi.o(.debug_macinfo)
+sdi.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+sdi.o(.debug_pubnames) refers to sdi.o(.debug_info)
+sdi.o(.debug_frame) refers to sdi.o(C$$code)
+stone.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+stone.o(.debug_line) refers to stone.o(C$$code)
+stone.o(.debug_info) refers to stone.o(C$$code)
+stone.o(.debug_info) refers to stone.o(.debug_loc)
+stone.o(.debug_info) refers to stone.o(.debug_line)
+stone.o(.debug_info) refers to stone.o(.debug_macinfo)
+stone.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+stone.o(.debug_pubnames) refers to stone.o(.debug_info)
+stone.o(.debug_frame) refers to stone.o(C$$code)
+ts_auto.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Getch
+ts_auto.o(C$$code) refers to ts_auto.o(C$$zidata) for buf
+ts_auto.o(.debug_info) refers to ts_auto.o(.debug_macinfo)
+ts_auto.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+ts_auto.o(.debug_line) refers to ts_auto.o(C$$code)
+ts_auto.o(.debug_info) refers to ts_auto.o(.debug_loc)
+ts_auto.o(.debug_info) refers to ts_auto.o(C$$code)
+ts_auto.o(.debug_info) refers to ts_auto.o(C$$zidata) for buf
+ts_auto.o(.debug_info) refers to ts_auto.o(.debug_line)
+ts_auto.o(.debug_info) refers to ts_auto.o(.debug_macinfo)
+ts_auto.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+ts_auto.o(.debug_pubnames) refers to ts_auto.o(.debug_info)
+ts_auto.o(.debug_frame) refers to ts_auto.o(C$$code)
+ts_sep.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+ts_sep.o(C$$code) refers to rt_udiv.o(C$$code) for __rt_udiv
+ts_sep.o(.debug_info) refers to ts_sep.o(.debug_macinfo)
+ts_sep.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+ts_sep.o(.debug_line) refers to ts_sep.o(C$$code)
+ts_sep.o(.debug_info) refers to ts_sep.o(.debug_loc)
+ts_sep.o(.debug_info) refers to ts_sep.o(C$$code)
+ts_sep.o(.debug_info) refers to ts_sep.o(.debug_line)
+ts_sep.o(.debug_info) refers to ts_sep.o(.debug_macinfo)
+ts_sep.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+ts_sep.o(.debug_pubnames) refers to ts_sep.o(.debug_info)
+ts_sep.o(.debug_frame) refers to ts_sep.o(C$$code)
+lcdlib.o(C$$code) refers to 2410slib.o(C$$code) for CLR_IF
+lcdlib.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+lcdlib.o(C$$code) refers to lcdlib.o(C$$data)
+lcdlib.o(.debug_line) refers to lcdlib.o(C$$code)
+lcdlib.o(.debug_info) refers to lcdlib.o(C$$code)
+lcdlib.o(.debug_info) refers to lcdlib.o(.debug_loc)
+lcdlib.o(.debug_info) refers to lcdlib.o(.debug_line)
+lcdlib.o(.debug_info) refers to lcdlib.o(.debug_macinfo)
+lcdlib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+lcdlib.o(.debug_pubnames) refers to lcdlib.o(.debug_info)
+lcdlib.o(.debug_frame) refers to lcdlib.o(C$$code)
+lcd.o(C$$code) refers to lcdlib.o(C$$code) for Lcd_EnvidOnOff
+lcd.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+lcd.o(C$$code) refers to glib.o(C$$code) for Glib_Line
+lcd.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+lcd.o(C$$code) refers to glib.o(C$$data) for PutPixel
+lcd.o(C$$code) refers to lcd.o(C$$constdata) for x$constdata
+lcd.o(C$$code) refers to rt_udiv.o(C$$code) for __rt_udiv
+lcd.o(C$$code) refers to lcd.o(C$$data)
+lcd.o(.debug_info) refers to lcd.o(C$$constdata) for x$constdata
+lcd.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+lcd.o(.debug_pubnames) refers to lcd.o(.debug_info)
+lcd.o(.debug_line) refers to lcd.o(C$$code)
+lcd.o(.debug_info) refers to lcd.o(C$$code)
+lcd.o(.debug_info) refers to lcd.o(.debug_loc)
+lcd.o(.debug_info) refers to lcd.o(C$$data) for lcd_count
+lcd.o(.debug_info) refers to lcd.o(.debug_line)
+lcd.o(.debug_info) refers to lcd.o(.debug_macinfo)
+lcd.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+lcd.o(.debug_pubnames) refers to lcd.o(.debug_info)
+lcd.o(.debug_frame) refers to lcd.o(C$$code)
+power.o(C$$code) refers to lcdlib.o(C$$code) for Lcd_EnvidOnOff
+power.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+power.o(C$$code) refers to power.o(C$$data)
+power.o(C$$code) refers to pwr_c.o(C$$code) for DoQsort
+power.o(C$$code) refers to ddiv.o(C$$code) for _ddiv
+power.o(.debug_line) refers to power.o(C$$code)
+power.o(.debug_info) refers to power.o(.debug_loc)
+power.o(.debug_info) refers to power.o(C$$code)
+power.o(.debug_info) refers to power.o(C$$data) for slowExit
+power.o(.debug_info) refers to power.o(.debug_line)
+power.o(.debug_info) refers to power.o(.debug_macinfo)
+power.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+power.o(.debug_pubnames) refers to power.o(.debug_info)
+power.o(.debug_frame) refers to power.o(C$$code)
+idle.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+idle.o(C$$code) refers to 2410slib.o(C$$code) for MMU_WaitForInterrupt
+idle.o(C$$code) refers to PowerOff.o(C$$code) for SetAlarmWakeUp
+idle.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+idle.o(C$$code) refers to pwr_c.o(C$$code) for PWR_StartTimer
+idle.o(C$$code) refers to idle.o(C$$data)
+idle.o(.debug_line) refers to idle.o(C$$code)
+idle.o(.debug_info) refers to idle.o(C$$code)
+idle.o(.debug_info) refers to idle.o(.debug_loc)
+idle.o(.debug_info) refers to idle.o(C$$data)
+idle.o(.debug_info) refers to idle.o(.debug_line)
+idle.o(.debug_info) refers to idle.o(.debug_macinfo)
+idle.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+idle.o(.debug_pubnames) refers to idle.o(.debug_info)
+idle.o(.debug_frame) refers to idle.o(C$$code)
+PowerOff.o(C$$code) refers to 2410lib.o(C$$code) for Uart_TxEmpty
+PowerOff.o(C$$code) refers to lcdlib.o(C$$code) for Lcd_EnvidOnOff
+PowerOff.o(C$$code) refers to 2410init.o(Init) for StartPointAfterPowerOffWakeUp
+PowerOff.o(.debug_line) refers to PowerOff.o(C$$code)
+PowerOff.o(.debug_info) refers to PowerOff.o(C$$code)
+PowerOff.o(.debug_info) refers to PowerOff.o(.debug_loc)
+PowerOff.o(.debug_info) refers to PowerOff.o(.debug_line)
+PowerOff.o(.debug_info) refers to PowerOff.o(.debug_macinfo)
+PowerOff.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+PowerOff.o(.debug_pubnames) refers to PowerOff.o(.debug_info)
+PowerOff.o(.debug_frame) refers to PowerOff.o(C$$code)
+flash.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+flash.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+flash.o(C$$code) refers to flash.o(C$$data) for flashType
+flash.o(C$$code) refers to k9s1208.o(C$$data) for downloadProgramSize
+flash.o(C$$code) refers to mmu.o(C$$code) for ChangeRomCacheStatus
+flash.o(C$$data) refers to flash.o(C$$code)
+flash.o(C$$data) refers to strata32.o(C$$code) for Program28F128J3A
+flash.o(C$$data) refers to am29f800.o(C$$code) for ProgramAM29F800
+flash.o(.debug_info) refers to flash.o(.debug_macinfo)
+flash.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+flash.o(.debug_info) refers to flash.o(.debug_macinfo)
+flash.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+flash.o(.debug_line) refers to flash.o(C$$code)
+flash.o(.debug_info) refers to flash.o(C$$code)
+flash.o(.debug_info) refers to flash.o(.debug_loc)
+flash.o(.debug_info) refers to flash.o(C$$data) for flashType
+flash.o(.debug_info) refers to k9s1208.o(C$$data) for downloadProgramSize
+flash.o(.debug_info) refers to flash.o(.debug_line)
+flash.o(.debug_info) refers to flash.o(.debug_macinfo)
+flash.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+flash.o(.debug_pubnames) refers to flash.o(.debug_info)
+flash.o(.debug_frame) refers to flash.o(C$$code)
+pwr_c.o(C$$code) refers to strcmp.o(C$$code) for strcmp
+pwr_c.o(C$$code) refers to _memcpy.o(C$$code) for _memcpy
+pwr_c.o(C$$code) refers to pwr_c.o(C$$zidata) for Arr_1_Glob
+pwr_c.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+pwr_c.o(C$$code) refers to memcpy.o(C$$code) for memcpy
+pwr_c.o(C$$code) refers to 2410lib.o(C$$code) for malloc
+pwr_c.o(C$$code) refers to glib.o(C$$code) for Glib_Line
+pwr_c.o(C$$code) refers to lcdlib.o(C$$code) for Lcd_EnvidOnOff
+pwr_c.o(C$$code) refers to pwr_c.o(C$$data)
+pwr_c.o(C$$code) refers to qsort.o(C$$code) for qsort
+pwr_c.o(C$$code) refers to mmu.o(C$$code) for MMU_Init
+pwr_c.o(.debug_line) refers to pwr_c.o(C$$code)
+pwr_c.o(.debug_info) refers to pwr_c.o(C$$code)
+pwr_c.o(.debug_info) refers to pwr_c.o(.debug_loc)
+pwr_c.o(.debug_info) refers to pwr_c.o(C$$data) for Reg
+pwr_c.o(.debug_info) refers to pwr_c.o(C$$zidata) for Arr_2_Glob
+pwr_c.o(.debug_info) refers to pwr_c.o(.debug_line)
+pwr_c.o(.debug_info) refers to pwr_c.o(.debug_macinfo)
+pwr_c.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+pwr_c.o(.debug_pubnames) refers to pwr_c.o(.debug_info)
+pwr_c.o(.debug_frame) refers to pwr_c.o(C$$code)
+etc.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+etc.o(C$$code) refers to etc.o(C$$data)
+etc.o(.debug_line) refers to etc.o(C$$code)
+etc.o(.debug_info) refers to etc.o(.debug_loc)
+etc.o(.debug_info) refers to etc.o(C$$code)
+etc.o(.debug_info) refers to etc.o(C$$data) for intDone
+etc.o(.debug_info) refers to etc.o(.debug_line)
+etc.o(.debug_info) refers to etc.o(.debug_macinfo)
+etc.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+etc.o(.debug_pubnames) refers to etc.o(.debug_info)
+etc.o(.debug_frame) refers to etc.o(C$$code)
+pd6710.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+pd6710.o(C$$code) refers to pd6710.o(C$$zidata)
+pd6710.o(.debug_line) refers to pd6710.o(C$$code)
+pd6710.o(.debug_info) refers to pd6710.o(.debug_loc)
+pd6710.o(.debug_info) refers to pd6710.o(C$$code)
+pd6710.o(.debug_info) refers to pd6710.o(C$$zidata)
+pd6710.o(.debug_info) refers to pd6710.o(C$$data) for isCardInsert
+pd6710.o(.debug_info) refers to pd6710.o(.debug_line)
+pd6710.o(.debug_info) refers to pd6710.o(.debug_macinfo)
+pd6710.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+pd6710.o(.debug_pubnames) refers to pd6710.o(.debug_info)
+pd6710.o(.debug_frame) refers to pd6710.o(C$$code)
+glib.o(C$$code) refers to lcdlib.o(C$$data) for frameBuffer16BitTft800600
+glib.o(C$$code) refers to rt_udiv.o(C$$code) for __rt_udiv
+glib.o(C$$code) refers to glib.o(C$$data)
+glib.o(.debug_line) refers to glib.o(C$$code)
+glib.o(.debug_info) refers to glib.o(C$$code)
+glib.o(.debug_info) refers to glib.o(.debug_loc)
+glib.o(.debug_info) refers to glib.o(.debug_line)
+glib.o(.debug_info) refers to glib.o(.debug_macinfo)
+glib.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+glib.o(.debug_pubnames) refers to glib.o(.debug_info)
+glib.o(.debug_frame) refers to glib.o(C$$code)
+am29f800.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+am29f800.o(C$$code) refers to am29f800.o(C$$data)
+am29f800.o(C$$code) refers to k9s1208.o(C$$data) for downloadAddress
+am29f800.o(.debug_line) refers to am29f800.o(C$$code)
+am29f800.o(.debug_info) refers to am29f800.o(C$$code)
+am29f800.o(.debug_info) refers to am29f800.o(.debug_loc)
+am29f800.o(.debug_info) refers to am29f800.o(C$$data)
+am29f800.o(.debug_info) refers to k9s1208.o(C$$data) for downloadProgramSize
+am29f800.o(.debug_info) refers to am29f800.o(.debug_line)
+am29f800.o(.debug_info) refers to am29f800.o(.debug_macinfo)
+am29f800.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+am29f800.o(.debug_pubnames) refers to am29f800.o(.debug_info)
+am29f800.o(.debug_frame) refers to am29f800.o(C$$code)
+palette.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+palette.o(C$$code) refers to palette.o(C$$data)
+palette.o(.debug_line) refers to palette.o(C$$code)
+palette.o(.debug_info) refers to palette.o(C$$code)
+palette.o(.debug_info) refers to palette.o(.debug_loc)
+palette.o(.debug_info) refers to palette.o(C$$data) for marchError
+palette.o(.debug_info) refers to palette.o(.debug_line)
+palette.o(.debug_info) refers to palette.o(.debug_macinfo)
+palette.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+palette.o(.debug_pubnames) refers to palette.o(.debug_info)
+palette.o(.debug_frame) refers to palette.o(C$$code)
+IrDA.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+IrDA.o(C$$code) refers to dfix.o(C$$code) for _dfix
+IrDA.o(C$$code) refers to drdv.o(C$$code) for _drdiv
+IrDA.o(C$$code) refers to dflt.o(C$$code) for _dfltu
+IrDA.o(C$$code) refers to IrDA.o(C$$data)
+IrDA.o(.debug_info) refers to IrDA.o(.debug_macinfo)
+IrDA.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+IrDA.o(.debug_line) refers to IrDA.o(C$$code)
+IrDA.o(.debug_info) refers to IrDA.o(C$$code)
+IrDA.o(.debug_info) refers to IrDA.o(.debug_loc)
+IrDA.o(.debug_info) refers to IrDA.o(C$$data) for sirda_UBRDIV2
+IrDA.o(.debug_info) refers to IrDA.o(.debug_line)
+IrDA.o(.debug_info) refers to IrDA.o(.debug_macinfo)
+IrDA.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+IrDA.o(.debug_pubnames) refers to IrDA.o(.debug_info)
+IrDA.o(.debug_frame) refers to IrDA.o(C$$code)
+uart0.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Getch
+uart0.o(C$$code) refers to uart0.o(C$$data)
+uart0.o(C$$code) refers to strlen.o(C$$code) for strlen
+uart0.o(C$$code) refers to dfix.o(C$$code) for _dfix
+uart0.o(C$$code) refers to drdv.o(C$$code) for _drdiv
+uart0.o(C$$code) refers to dflt.o(C$$code) for _dflt
+uart0.o(.debug_line) refers to uart0.o(C$$code)
+uart0.o(.debug_info) refers to uart0.o(C$$code)
+uart0.o(.debug_info) refers to uart0.o(.debug_loc)
+uart0.o(.debug_info) refers to uart0.o(C$$data)
+uart0.o(.debug_info) refers to uart0.o(.debug_line)
+uart0.o(.debug_info) refers to uart0.o(.debug_macinfo)
+uart0.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+uart0.o(.debug_pubnames) refers to uart0.o(.debug_info)
+uart0.o(.debug_frame) refers to uart0.o(C$$code)
+uart1.o(C$$code) refers to uart0.o(C$$data) for rxdataCk
+uart1.o(C$$code) refers to uart0.o(C$$code) for Uart_Port_Return
+uart1.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+uart1.o(C$$code) refers to strlen.o(C$$code) for strlen
+uart1.o(C$$code) refers to uart1.o(C$$data)
+uart1.o(.debug_line) refers to uart1.o(C$$code)
+uart1.o(.debug_info) refers to uart1.o(C$$code)
+uart1.o(.debug_info) refers to uart1.o(.debug_loc)
+uart1.o(.debug_info) refers to uart1.o(C$$data)
+uart1.o(.debug_info) refers to uart1.o(.debug_line)
+uart1.o(.debug_info) refers to uart1.o(.debug_macinfo)
+uart1.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+uart1.o(.debug_pubnames) refers to uart1.o(.debug_info)
+uart1.o(.debug_frame) refers to uart1.o(C$$code)
+uart2.o(C$$code) refers to uart0.o(C$$code) for Uart_Port_Return
+uart2.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Getch
+uart2.o(C$$code) refers to strlen.o(C$$code) for strlen
+uart2.o(C$$code) refers to uart0.o(C$$data) for rx_checksum
+uart2.o(C$$code) refers to uart2.o(C$$data)
+uart2.o(.debug_line) refers to uart2.o(C$$code)
+uart2.o(.debug_info) refers to uart2.o(.debug_loc)
+uart2.o(.debug_info) refers to uart2.o(C$$code)
+uart2.o(.debug_info) refers to uart2.o(C$$data)
+uart2.o(.debug_info) refers to uart2.o(.debug_line)
+uart2.o(.debug_info) refers to uart2.o(.debug_macinfo)
+uart2.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+uart2.o(.debug_pubnames) refers to uart2.o(.debug_info)
+uart2.o(.debug_frame) refers to uart2.o(C$$code)
+spi.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+spi.o(C$$code) refers to strcmp.o(C$$code) for strcmp
+spi.o(C$$code) refers to spi.o(C$$data)
+spi.o(.debug_line) refers to spi.o(C$$code)
+spi.o(.debug_info) refers to spi.o(C$$code)
+spi.o(.debug_info) refers to spi.o(.debug_loc)
+spi.o(.debug_info) refers to spi.o(C$$data) for spi_rGPGUP
+spi.o(.debug_info) refers to spi.o(.debug_line)
+spi.o(.debug_info) refers to spi.o(.debug_macinfo)
+spi.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+spi.o(.debug_pubnames) refers to spi.o(.debug_info)
+spi.o(.debug_frame) refers to spi.o(C$$code)
+usbfifo.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+usbfifo.o(C$$code) refers to usbfifo.o(C$$data)
+usbfifo.o(.debug_line) refers to usbfifo.o(C$$code)
+usbfifo.o(.debug_info) refers to usbfifo.o(C$$code)
+usbfifo.o(.debug_info) refers to usbfifo.o(.debug_loc)
+usbfifo.o(.debug_info) refers to usbfifo.o(C$$data) for MarchError
+usbfifo.o(.debug_info) refers to usbfifo.o(.debug_line)
+usbfifo.o(.debug_info) refers to usbfifo.o(.debug_macinfo)
+usbfifo.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+usbfifo.o(.debug_pubnames) refers to usbfifo.o(.debug_info)
+usbfifo.o(.debug_frame) refers to usbfifo.o(C$$code)
+strata32.o(C$$code) refers to 2410lib.o(C$$code) for Uart_GetIntNum
+strata32.o(C$$code) refers to k9s1208.o(C$$data) for downloadAddress
+strata32.o(C$$code) refers to strata32.o(C$$data)
+strata32.o(.debug_line) refers to strata32.o(C$$code)
+strata32.o(.debug_info) refers to strata32.o(.debug_loc)
+strata32.o(.debug_info) refers to strata32.o(C$$code)
+strata32.o(.debug_info) refers to strata32.o(C$$data)
+strata32.o(.debug_info) refers to k9s1208.o(C$$data) for downloadProgramSize
+strata32.o(.debug_info) refers to strata32.o(.debug_line)
+strata32.o(.debug_info) refers to strata32.o(.debug_macinfo)
+strata32.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+strata32.o(.debug_pubnames) refers to strata32.o(.debug_info)
+strata32.o(.debug_frame) refers to strata32.o(C$$code)
+cache.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+cache.o(C$$code) refers to speed2003.o(C$$code) for IMMU_Test
+cache.o(C$$code) refers to 2410slib.o(C$$code) for MMU_DisableDCache
+cache.o(C$$code) refers to mmu.o(C$$code) for MMU_SetMTT
+cache.o(.debug_line) refers to cache.o(C$$code)
+cache.o(.debug_info) refers to cache.o(C$$code)
+cache.o(.debug_info) refers to cache.o(.debug_loc)
+cache.o(.debug_info) refers to cache.o(.debug_line)
+cache.o(.debug_info) refers to cache.o(.debug_macinfo)
+cache.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+cache.o(.debug_pubnames) refers to cache.o(.debug_info)
+cache.o(.debug_frame) refers to cache.o(C$$code)
+cpuspeed.o(C$$code) refers to 2410lib.o(C$$code) for ChangeMPllValue
+cpuspeed.o(C$$code) refers to 2410slib.o(C$$code) for MMU_SetDCacheLockdownBase
+cpuspeed.o(.debug_line) refers to cpuspeed.o(C$$code)
+cpuspeed.o(.debug_info) refers to cpuspeed.o(C$$code)
+cpuspeed.o(.debug_info) refers to cpuspeed.o(.debug_loc)
+cpuspeed.o(.debug_info) refers to cpuspeed.o(.debug_line)
+cpuspeed.o(.debug_info) refers to cpuspeed.o(.debug_macinfo)
+cpuspeed.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+cpuspeed.o(.debug_pubnames) refers to cpuspeed.o(.debug_info)
+cpuspeed.o(.debug_frame) refers to cpuspeed.o(C$$code)
+game.o(C$$code) refers to 2410lib.o(C$$code) for Uart_Printf
+game.o(C$$code) refers to lcd.o(C$$code) for Lcd_Port_Return
+game.o(C$$code) refers to lcdlib.o(C$$code) for Lcd_EnvidOnOff
+game.o(C$$code) refers to games.o(Space_Invader) for START
+game.o(C$$code) refers to glib.o(C$$code) for Glib_Init
+game.o(C$$code) refers to games.o(Space_Invader2) for ISREINT2
+game.o(.debug_line) refers to game.o(C$$code)
+game.o(.debug_info) refers to game.o(.debug_loc)
+game.o(.debug_info) refers to game.o(C$$code)
+game.o(.debug_info) refers to game.o(.debug_line)
+game.o(.debug_info) refers to game.o(.debug_macinfo)
+game.o(.debug_info) refers to 2410test.o(.debug_abbrev)
+game.o(.debug_pubnames) refers to game.o(.debug_info)
+game.o(.debug_frame) refers to game.o(C$$code)
+rt_sdiv.o(C$$code) refers to rt_div0.o(C$$code) for __rt_div0
+ddiv.o(C$$code) refers to norm_op2.o(C$$code) for __fp_norm_op2
+ddiv.o(C$$code) refers to norm_op1.o(C$$code) for __fp_norm_op1
+ddiv.o(C$$code) refers to div.o(C$$code) for __fp_div_common
+ddiv.o(C$$code) refers to e2d.o(C$$code) for __fp_e2d
+ddiv.o(C$$code) refers to except.o(C$$code) for __fp_veneer_error
+drdv.o(C$$code) refers to norm_op2.o(C$$code) for __fp_norm_op2
+drdv.o(C$$code) refers to norm_op1.o(C$$code) for __fp_norm_op1
+drdv.o(C$$code) refers to div.o(C$$code) for __fp_rdv_common
+drdv.o(C$$code) refers to e2d.o(C$$code) for __fp_e2d
+drdv.o(C$$code) refers to except.o(C$$code) for __fp_veneer_error
+dadd.o(C$$code) refers to norm_op2.o(C$$code) for __fp_norm_op2
+dadd.o(C$$code) refers to norm_op1.o(C$$code) for __fp_norm_op1
+dadd.o(C$$code) refers to addsub.o(C$$code) for __fp_addsub_common
+dadd.o(C$$code) refers to e2d.o(C$$code) for __fp_e2d
+dadd.o(C$$code) refers to except.o(C$$code) for __fp_veneer_error
+dfix.o(C$$code) refers to except.o(C$$code) for __fp_exception
+strlen.o(C$$fpmap) refers to strlen.o(C$$code)
+atoi.o(C$$code) refers to kernel.o(C$$data) for __errno
+atoi.o(C$$code) refers to strtol.o(C$$code) for strtol
+atoi.o(C$$fpmap) refers to atoi.o(C$$code)
+ctype.o(C$$code) refers to ctype.o(C$$constdata) for x$constdata
+ctype.o(C$$code) refers to ctype.o(C$$data) for __ctype
+vsprintf.o(C$$code) refers to _fp_disp.o(C$$code) for _fp_display
+vsprintf.o(C$$code) refers to _sputc.o(C$$code) for _serror
+vsprintf.o(C$$code) refers to __vfpntf.o(C$$code) for __vfprintf
+vsprintf.o(C$$fpmap) refers to vsprintf.o(C$$code)
+rt_udiv.o(C$$code) refers to rt_div0.o(C$$code) for __rt_div0
+fdiv.o(C$$code) refers to fcheck.o(C$$code) for __flt_underflow
+fdiv.o(C$$code) refers to fnorm2.o(C$$code) for __flt_normalise2
+fdiv.o(C$$code) refers to except.o(C$$code) for __fp_exception
+f2d.o(C$$code) refers to dflt.o(C$$code) for __dflt_normalise
+f2d.o(C$$code) refers to except.o(C$$code) for __fp_exception
+qsort.o(C$$code) refers to rt_udiv.o(C$$code) for __rt_udiv
+qsort.o(C$$fpmap) refers to qsort.o(C$$code)
+rt_div0.o(C$$code) refers to kernel.o(C$$code) for __rt_trap_32
+rt_div0.o(C$$code) refers to oslow.o(C$$data) for __rt_registerDump
+e2d.o(C$$code) refers to liberror.o(C$$code) for __fp_erange
+except.o(C$$code) refers to status.o(C$$code) for __fp_status_arm
+except.o(C$$code) refers to fpdata.o(C$$data) for __fp_errblock
+except.o(C$$code) refers to fcheck.o(C$$code) for __fp_return_Inf
+except.o(C$$code) refers to kernel.o(C$$code) for __rt_trap
+div.o(C$$code) refers to normal.o(C$$code) for __fp_normalise_op1neg
+div.o(C$$code) refers to nans.o(C$$code) for __fp_convert_NaNs
+addsub.o(C$$code) refers to normal.o(C$$code) for __fp_normalise_op1
+addsub.o(C$$code) refers to nans.o(C$$code) for __fp_convert_NaNs
+kernel.o(C$$code) refers to suppapp.o(SysSupportCode) for __sys_generate_error
+kernel.o(C$$code) refers to stkcont.o(C$$code) for _Stack_Init_32
+kernel.o(C$$code) refers to oslow.o(C$$code) for __osdep_heapsupport_init_32
+kernel.o(C$$code) refers to handlers.o(C$$code) for _clib_TrapHandler_32
+kernel.o(C$$code) refers to kernel.o(C$$data)
+kernel.o(C$$code) refers to image.o(C$$code) for _RW_Limit
+kernel.o(C$$code) refers to lib_init.o(C$$code) for __rt_lib_init
+strtol.o(C$$code) refers to kernel.o(C$$data) for __errno
+strtol.o(C$$code) refers to _strtoul.o(C$$code) for _strtoul
+strtol.o(C$$fpmap) refers to strtol.o(C$$code)
+_fp_disp.o(C$$code) refers to _lc.o(C$$data) for _lc
+_fp_disp.o(C$$code) refers to rtsdiv10.o(C$$code) for __rt_sdiv10
+_fp_disp.o(C$$code) refers to rt_sdiv.o(C$$code) for __rt_sdiv
+_fp_disp.o(C$$code) refers to dfix.o(C$$code) for _dfix
+_fp_disp.o(C$$code) refers to dmul.o(C$$code) for _dmul
+_fp_disp.o(C$$code) refers to dadd.o(C$$code) for _drsb
+_fp_disp.o(C$$code) refers to dflt.o(C$$code) for _dflt
+_fp_disp.o(C$$code) refers to ddiv.o(C$$code) for _ddiv
+_fp_disp.o(C$$code) refers to dleq.o(C$$code) for _dleq
+_fp_disp.o(C$$code) refers to ldexp.o(C$$code) for ldexp
+_fp_disp.o(C$$code) refers to dgeq.o(C$$code) for _dgeq
+_fp_disp.o(C$$code) refers to dls.o(C$$code) for _dls
+_fp_disp.o(C$$code) refers to e2d.o(C$$code) for _e2d
+_fp_disp.o(C$$code) refers to esquare.o(C$$code) for _esquare
+_fp_disp.o(C$$code) refers to emul.o(C$$code) for _emul
+_fp_disp.o(C$$code) refers to d2e.o(C$$code) for _d2e
+_fp_disp.o(C$$code) refers to frexp.o(C$$code) for frexp
+_fp_disp.o(C$$code) refers to deq.o(C$$code) for _deq
+_fp_disp.o(C$$fpmap) refers to _fp_disp.o(C$$code)
+__vfpntf.o(C$$code) refers to llscmplt.o(C$$code) for _ll_scmplt
+__vfpntf.o(C$$code) refers to strlen.o(C$$code) for strlen
+__vfpntf.o(C$$code) refers to rtudiv10.o(C$$code) for __rt_udiv10
+__vfpntf.o(C$$code) refers to llcmpne.o(C$$code) for _ll_cmpne
+__vfpntf.o(C$$code) refers to lludiv.o(C$$code) for _ll_udiv
+__vfpntf.o(C$$code) refers to llushr.o(C$$code) for _ll_ushift_r
+__vfpntf.o(C$$fpmap) refers to __vfpntf.o(C$$code)
+fcheck.o(C$$code) refers to except.o(C$$code) for __fp_exception
+fcheck.o(C$$code) refers to fpdata.o(C$$data) for __fp_status_flags
+oslow.o(C$$code) refers to kernel.o(C$$code) for __rt_trap_32
+liberror.o(C$$code) refers to kernel.o(C$$data) for __errno
+status.o(C$$code) refers to fpdata.o(C$$data) for __fp_status_flags
+stkcont.o(C$$code) refers to kernel.o(C$$code) for __rt_trap_32
+stkcont.o(C$$code) refers to stkcont.o(C$$data)
+stkcont.o(C$$code) refers to kernel.o(C$$data) for __rt_heapDesc
+stkcont.o(C$$code) refers to oslow.o(C$$data) for __rt_registerDump
+handlers.o(C$$code) refers to kernel.o(C$$code) for __call_ip
+handlers.o(C$$code) refers to kernel.o(C$$data) for _interrupts_off
+handlers.o(C$$code) refers to signal.o(C$$code) for raise
+lib_init.o(C$$code) refers to signal.o(C$$code) for _signal_init
+lib_init.o(C$$code) refers to ctype.o(C$$code) for _ctype_init
+lib_init.o(C$$code) refers to lib_init.o(C$$data) for _init_flags
+lib_init.o(C$$code) refers to handlers.o(C$$code) for _raise_stacked_interrupts
+lib_init.o(C$$code) refers to sys_misc.o(C$$code) for _sys_ttyfilename
+lib_init.o(C$$fpmap) refers to lib_init.o(C$$code)
+_strtoul.o(C$$code) refers to kernel.o(C$$data) for __errno
+_strtoul.o(C$$code) refers to _chval.o(C$$code) for _chval
+_strtoul.o(C$$fpmap) refers to _strtoul.o(C$$code)
+dls.o(C$$code) refers to dcompare.o(C$$code) for __dcmp_NaN
+deq.o(C$$code) refers to fcheck.o(C$$code) for __fp_dcheck_NaN2
+frexp.o(C$$code) refers to liberror.o(C$$code) for __fp_edom
+ldexp.o(C$$code) refers to liberror.o(C$$code) for __fp_edom
+emul.o(C$$code) refers to mul.o(C$$code) for __fp_mult_common
+emul.o(C$$code) refers to e2e.o(C$$code) for _e2e
+esquare.o(C$$code) refers to mul.o(C$$code) for __fp_mult_common
+esquare.o(C$$code) refers to e2e.o(C$$code) for _e2e
+dmul.o(C$$code) refers to norm_op2.o(C$$code) for __fp_norm_op2
+dmul.o(C$$code) refers to norm_op1.o(C$$code) for __fp_norm_op1
+dmul.o(C$$code) refers to mul.o(C$$code) for __fp_mult_common
+dmul.o(C$$code) refers to e2d.o(C$$code) for __fp_e2d
+dmul.o(C$$code) refers to except.o(C$$code) for __fp_veneer_error
+dgeq.o(C$$code) refers to dcompare.o(C$$code) for __dcmp_NaN
+dleq.o(C$$code) refers to dcompare.o(C$$code) for __dcmp_NaN
+_lc.o(C$$data) refers to _lc.o(C$$constdata) for _lc_C
+signal.o(C$$code) refers to signal.o(C$$zidata) for _signalvector
+signal.o(C$$code) refers to kernel.o(C$$data) for __errno
+signal.o(C$$code) refers to lib_init.o(C$$data) for _init_flags
+signal.o(C$$code) refers to kernel.o(C$$code) for __rt_exit
+signal.o(C$$code) refers to handlers.o(C$$code) for _postmortem
+signal.o(C$$code) refers to _sys_msg.o(C$$code) for _sys_msg
+signal.o(C$$code) refers to oshigh.o(C$$code) for _hostos_signal_string
+signal.o(C$$fpmap) refers to signal.o(C$$code)
+dcompare.o(C$$code) refers to except.o(C$$code) for __fp_exception
+mul.o(C$$code) refers to normal.o(C$$code) for __fp_normalise_op1
+mul.o(C$$code) refers to nans.o(C$$code) for __fp_convert_NaNs
+_sys_msg.o(C$$code) refers to lib_init.o(C$$data) for _init_flags
+_sys_msg.o(C$$code) refers to sys_wrch.o(C$$code) for _ttywrch
+_sys_msg.o(C$$fpmap) refers to _sys_msg.o(C$$code)
+oshigh.o(C$$code) refers to oshigh.o(C$$zidata)
+oshigh.o(C$$code) refers to kernel.o(C$$data) for __rt_errorBuffer
+oshigh.o(C$$fpmap) refers to oshigh.o(C$$code)
+sys_wrch.o(C$$code) refers to suppapp.o(SysSupportCode) for _syscall
+sys_wrch.o(C$$fpmap) refers to sys_wrch.o(C$$code)
+
+AREA map of 2410test.axf:
+
+Base     Size     Type RO? Name
+30000000 378      CODE RO  Init from object file 2410init.o
+30000378 184      CODE RO  C$$code from object file 2410slib.o
+300004fc 4        CODE RO  C$$code from object file 2410swis.o
+30000500 890      CODE RO  C$$code from object file speed2003.o
+30000d90 b24      CODE RO  C$$code from object file 2410test.o
+300018b4 bd0      CODE RO  C$$code from object file 2410lib.o
+30002484 29c      CODE RO  C$$code from object file mmu.o
+30002720 14e0     CODE RO  C$$code from object file 2410iis.o
+30003c00 ea8      CODE RO  C$$code from object file timer.o
+30004aa8 a40      CODE RO  C$$code from object file 2410RTC.o
+300054e8 bd8      CODE RO  C$$code from object file 2410IIC.o
+300060c0 3e8      CODE RO  C$$code from object file 2410int.o
+300064a8 148      CODE RO  C$$code from object file 2410swi.o
+300065f0 410      CODE RO  C$$code from object file 2410etc.o
+30006a00 628      CODE RO  C$$code from object file adc.o
+30007028 8b4      CODE RO  C$$code from object file dma.o
+300078dc 5ec      CODE RO  C$$code from object file dma2.o
+30007ec8 510      CODE RO  C$$code from object file eint.o
+300083d8 1284     CODE RO  C$$code from object file extdma.o
+3000965c 159c     CODE RO  C$$code from object file k9s1208.o
+3000abf8 40c      CODE RO  C$$code from object file nwait.o
+3000b004 1c18     CODE RO  C$$code from object file sdi.o
+3000cc1c 420      CODE RO  C$$code from object file stone.o
+3000d03c 2ac      CODE RO  C$$code from object file ts_auto.o
+3000d2e8 3cc      CODE RO  C$$code from object file ts_sep.o
+3000d6b4 1924     CODE RO  C$$code from object file lcdlib.o
+3000efd8 4628     CODE RO  C$$code from object file lcd.o
+30013600 68c      CODE RO  C$$code from object file power.o
+30013c8c 714      CODE RO  C$$code from object file idle.o
+300143a0 1040     CODE RO  C$$code from object file PowerOff.o
+300153e0 4d8      CODE RO  C$$code from object file flash.o
+300158b8 df8      CODE RO  C$$code from object file pwr_c.o
+300166b0 19c      CODE RO  C$$code from object file etc.o
+3001684c 7d0      CODE RO  C$$code from object file pd6710.o
+3001701c ef4      CODE RO  C$$code from object file glib.o
+30017f10 b20      CODE RO  C$$code from object file am29f800.o
+30018a30 360      CODE RO  C$$code from object file palette.o
+30018d90 c28      CODE RO  C$$code from object file IrDA.o
+300199b8 1e90     CODE RO  C$$code from object file uart0.o
+3001b848 1a24     CODE RO  C$$code from object file uart1.o
+3001d26c 12b4     CODE RO  C$$code from object file uart2.o
+3001e520 ff8      CODE RO  C$$code from object file spi.o
+3001f518 314      CODE RO  C$$code from object file usbfifo.o
+3001f82c a5c      CODE RO  C$$code from object file strata32.o
+30020288 4e4      CODE RO  C$$code from object file cache.o
+3002076c 5c8      CODE RO  C$$code from object file cpuspeed.o
+30020d34 380      CODE RO  C$$code from object file game.o
+300210b4 d4       CODE RO  C$$code from object file rt_sdiv.o
+30021188 5c       CODE RO  C$$code from object file dflt.o
+300211e4 144      CODE RO  C$$code from object file ddiv.o
+30021328 144      CODE RO  C$$code from object file drdv.o
+3002146c e0       CODE RO  C$$code from object file dadd.o
+3002154c 74       CODE RO  C$$code from object file dfix.o
+300215c0 6c       CODE RO  C$$code from object file strlen.o
+3002162c 24       CODE RO  C$$code from object file atoi.o
+30021650 4c       CODE RO  C$$code from object file ctype.o
+3002169c 58       CODE RO  C$$code from object file vsprintf.o
+300216f4 c0       CODE RO  C$$code from object file rt_udiv.o
+300217b4 68       CODE RO  C$$code from object file fflt.o
+3002181c 1dc      CODE RO  C$$code from object file fdiv.o
+300219f8 68       CODE RO  C$$code from object file f2d.o
+30021a60 440      CODE RO  C$$code from object file qsort.o
+30021ea0 240      CODE RO  C$$code from object file memcpy.o
+300220e0 44       CODE RO  C$$code from object file _memcpy.o
+30022124 a0       CODE RO  C$$code from object file strcmp.o
+300221c4 38       CODE RO  C$$code from object file rt_div0.o
+300221fc 23c      CODE RO  C$$code from object file e2d.o
+30022438 1ac      CODE RO  C$$code from object file except.o
+300225e4 c0       CODE RO  C$$code from object file norm_op1.o
+300226a4 c0       CODE RO  C$$code from object file norm_op2.o
+30022764 5fc      CODE RO  C$$code from object file div.o
+30022d60 268      CODE RO  C$$code from object file addsub.o
+30022fc8 404      CODE RO  C$$code from object file kernel.o
+300233cc a0       CODE RO  C$$code from object file strtol.o
+3002346c 1c       CODE RO  C$$code from object file _sputc.o
+30023488 e50      CODE RO  C$$code from object file _fp_disp.o
+300242d8 d7c      CODE RO  C$$code from object file __vfpntf.o
+30025054 94       CODE RO  C$$code from object file fnorm2.o
+300250e8 1d0      CODE RO  C$$code from object file fcheck.o
+300252b8 190      CODE RO  C$$code from object file oslow.o
+30025448 38       CODE RO  C$$code from object file liberror.o
+30025480 2c       CODE RO  C$$code from object file status.o
+300254ac 338      CODE RO  C$$code from object file normal.o
+300257e4 d4       CODE RO  C$$code from object file nans.o
+300258b8 c4       CODE RO  C$$code from object file stkcont.o
+3002597c f4       CODE RO  C$$code from object file handlers.o
+30025a70 1b8      CODE RO  C$$code from object file lib_init.o
+30025c28 c        CODE RO  C$$code from object file image.o
+30025c34 108      CODE RO  C$$code from object file _strtoul.o
+30025d3c 40       CODE RO  C$$code from object file rtsdiv10.o
+30025d7c b0       CODE RO  C$$code from object file dls.o
+30025e2c b8       CODE RO  C$$code from object file deq.o
+30025ee4 94       CODE RO  C$$code from object file frexp.o
+30025f78 10c      CODE RO  C$$code from object file ldexp.o
+30026084 f4       CODE RO  C$$code from object file d2e.o
+30026178 2c       CODE RO  C$$code from object file emul.o
+300261a4 30       CODE RO  C$$code from object file esquare.o
+300261d4 d4       CODE RO  C$$code from object file dmul.o
+300262a8 b0       CODE RO  C$$code from object file dgeq.o
+30026358 b0       CODE RO  C$$code from object file dleq.o
+30026408 10       CODE RO  C$$code from object file llcmpne.o
+30026418 28       CODE RO  C$$code from object file llushr.o
+30026440 88       CODE RO  C$$code from object file lludiv.o
+300264c8 2c       CODE RO  C$$code from object file rtudiv10.o
+300264f4 20       CODE RO  C$$code from object file llscmplt.o
+30026514 2d4      CODE RO  C$$code from object file signal.o
+300267e8 14       CODE RO  C$$code from object file sys_misc.o
+300267fc 20       CODE RO  C$$code from object file _chval.o
+3002681c 8        CODE RO  C$$code from object file dcompare.o
+30026824 39c      CODE RO  C$$code from object file mul.o
+30026bc0 c8       CODE RO  C$$code from object file e2e.o
+30026c88 84       CODE RO  C$$code from object file _sys_msg.o
+30026d0c a8       CODE RO  C$$code from object file oshigh.o
+30026db4 14       CODE RO  C$$code from object file sys_wrch.o
+30026dc8 740      CODE RO  Space_Invader from object file games.o
+30027508 c8       CODE RO  Space_Invader2 from object file games.o
+300275d0 3c       CODE RO  SysSupportCode from object file suppapp.o
+3002760c 12e00    DATA RO  C$$constdata from object file lcd.o
+3003a40c 80       DATA RO  C$$constdata from object file ctype.o
+3003a48c 14       DATA RO  C$$constdata from object file _lc.o
+3003a4a0 2c0      DATA RW  C$$data from object file 2410test.o
+3003a760 c        DATA RW  C$$data from object file 2410lib.o
+3003a76c 28       DATA RW  C$$data from object file 2410iis.o
+3003a794 18       DATA RW  C$$data from object file timer.o
+3003a7ac 2c       DATA RW  C$$data from object file 2410RTC.o
+3003a7d8 10       DATA RW  C$$data from object file 2410IIC.o
+3003a7e8 8        DATA RW  C$$data from object file 2410int.o
+3003a7f0 4        DATA RW  C$$data from object file 2410swi.o
+3003a7f4 c        DATA RW  C$$data from object file adc.o
+3003a800 4        DATA RW  C$$data from object file dma.o
+3003a804 4        DATA RW  C$$data from object file dma2.o
+3003a808 24       DATA RW  C$$data from object file extdma.o
+3003a82c 24       DATA RW  C$$data from object file k9s1208.o
+3003a850 34       DATA RW  C$$data from object file sdi.o
+3003a884 38       DATA RW  C$$data from object file lcdlib.o
+3003a8bc 1c       DATA RW  C$$data from object file lcd.o
+3003a8d8 4        DATA RW  C$$data from object file power.o
+3003a8dc 8        DATA RW  C$$data from object file idle.o
+3003a8e4 18       DATA RW  C$$data from object file flash.o
+3003a8fc 34       DATA RW  C$$data from object file pwr_c.o
+3003a930 10       DATA RW  C$$data from object file etc.o
+3003a940 4        DATA RW  C$$data from object file pd6710.o
+3003a944 4        DATA RW  C$$data from object file glib.o
+3003a948 18       DATA RW  C$$data from object file am29f800.o
+3003a960 4        DATA RW  C$$data from object file palette.o
+3003a964 44       DATA RW  C$$data from object file IrDA.o
+3003a9a8 90       DATA RW  C$$data from object file uart0.o
+3003aa38 8        DATA RW  C$$data from object file uart1.o
+3003aa40 8        DATA RW  C$$data from object file uart2.o
+3003aa48 2c       DATA RW  C$$data from object file spi.o
+3003aa74 4        DATA RW  C$$data from object file usbfifo.o
+3003aa78 18       DATA RW  C$$data from object file strata32.o
+3003aa90 104      DATA RW  C$$data from object file ctype.o
+3003ab94 b8       DATA RW  C$$data from object file kernel.o
+3003ac4c 40       DATA RW  C$$data from object file oslow.o
+3003ac8c 48       DATA RW  C$$data from object file fpdata.o
+3003acd4 8        DATA RW  C$$data from object file stkcont.o
+3003acdc 8        DATA RW  C$$data from object file lib_init.o
+3003ace4 30       DATA RW  C$$data from object file _lc.o
+3003ad14 f80      DATA RW  Space_Invader_Data from object file games.o
+3003bc94 220      ZERO RW  C$$zidata from object file 2410IIC.o
+3003beb4 28       ZERO RW  C$$zidata from object file ts_auto.o
+3003bedc 567d8    ZERO RW  C$$zidata from object file pwr_c.o
+300926b4 10       ZERO RW  C$$zidata from object file pd6710.o
+300926c4 30       ZERO RW  C$$zidata from object file signal.o
+300926f4 20       ZERO RW  C$$zidata from object file oshigh.o
+0        27c      DBUG RO  .debug_abbrev from object file 2410test.o
+0        cc       DBUG RO  .debug_frame from object file 2410test.o
+cc       22c      DBUG RO  .debug_frame from object file 2410lib.o
+2f8      a0       DBUG RO  .debug_frame from object file mmu.o
+398      1ec      DBUG RO  .debug_frame from object file 2410iis.o
+584      178      DBUG RO  .debug_frame from object file timer.o
+6fc      188      DBUG RO  .debug_frame from object file 2410RTC.o
+884      174      DBUG RO  .debug_frame from object file 2410IIC.o
+9f8      ac       DBUG RO  .debug_frame from object file 2410int.o
+aa4      6c       DBUG RO  .debug_frame from object file 2410swi.o
+b10      f8       DBUG RO  .debug_frame from object file 2410etc.o
+c08      c4       DBUG RO  .debug_frame from object file adc.o
+ccc      10c      DBUG RO  .debug_frame from object file dma.o
+dd8      110      DBUG RO  .debug_frame from object file dma2.o
+ee8      bc       DBUG RO  .debug_frame from object file eint.o
+fa4      170      DBUG RO  .debug_frame from object file extdma.o
+1114     2f8      DBUG RO  .debug_frame from object file k9s1208.o
+140c     14c      DBUG RO  .debug_frame from object file nwait.o
+1558     45c      DBUG RO  .debug_frame from object file sdi.o
+19b4     58       DBUG RO  .debug_frame from object file stone.o
+1a0c     70       DBUG RO  .debug_frame from object file ts_auto.o
+1a7c     74       DBUG RO  .debug_frame from object file ts_sep.o
+1af0     dc       DBUG RO  .debug_frame from object file lcdlib.o
+1bcc     3fc      DBUG RO  .debug_frame from object file lcd.o
+1fc8     94       DBUG RO  .debug_frame from object file power.o
+205c     120      DBUG RO  .debug_frame from object file idle.o
+217c     1fc      DBUG RO  .debug_frame from object file PowerOff.o
+2378     b4       DBUG RO  .debug_frame from object file flash.o
+242c     2e4      DBUG RO  .debug_frame from object file pwr_c.o
+2710     68       DBUG RO  .debug_frame from object file etc.o
+2778     1d8      DBUG RO  .debug_frame from object file pd6710.o
+2950     2c8      DBUG RO  .debug_frame from object file glib.o
+2c18     154      DBUG RO  .debug_frame from object file am29f800.o
+2d6c     ac       DBUG RO  .debug_frame from object file palette.o
+2e18     11c      DBUG RO  .debug_frame from object file IrDA.o
+2f34     2d0      DBUG RO  .debug_frame from object file uart0.o
+3204     258      DBUG RO  .debug_frame from object file uart1.o
+345c     1b4      DBUG RO  .debug_frame from object file uart2.o
+3610     1dc      DBUG RO  .debug_frame from object file spi.o
+37ec     b8       DBUG RO  .debug_frame from object file usbfifo.o
+38a4     164      DBUG RO  .debug_frame from object file strata32.o
+3a08     d8       DBUG RO  .debug_frame from object file cache.o
+3ae0     8c       DBUG RO  .debug_frame from object file cpuspeed.o
+3b6c     b4       DBUG RO  .debug_frame from object file game.o
+0        168      DBUG RO  .debug_info from object file 2410test.o
+168      5c       DBUG RO  .debug_info from object file 2410test.o
+1c4      58       DBUG RO  .debug_info from object file 2410test.o
+21c      5c       DBUG RO  .debug_info from object file 2410test.o
+278      5c       DBUG RO  .debug_info from object file 2410test.o
+2d4      5c       DBUG RO  .debug_info from object file 2410test.o
+330      5c       DBUG RO  .debug_info from object file 2410test.o
+38c      5c       DBUG RO  .debug_info from object file 2410test.o
+3e8      5c       DBUG RO  .debug_info from object file 2410test.o
+444      5c       DBUG RO  .debug_info from object file 2410test.o
+4a0      5c       DBUG RO  .debug_info from object file 2410test.o
+4fc      5c       DBUG RO  .debug_info from object file 2410test.o
+558      5c       DBUG RO  .debug_info from object file 2410test.o
+5b4      58       DBUG RO  .debug_info from object file 2410test.o
+60c      5c       DBUG RO  .debug_info from object file 2410test.o
+668      58       DBUG RO  .debug_info from object file 2410test.o
+6c0      58       DBUG RO  .debug_info from object file 2410test.o
+718      58       DBUG RO  .debug_info from object file 2410test.o
+770      58       DBUG RO  .debug_info from object file 2410test.o
+7c8      5c       DBUG RO  .debug_info from object file 2410test.o
+824      5c       DBUG RO  .debug_info from object file 2410test.o
+880      58       DBUG RO  .debug_info from object file 2410test.o
+8d8      58       DBUG RO  .debug_info from object file 2410test.o
+930      58       DBUG RO  .debug_info from object file 2410test.o
+988      58       DBUG RO  .debug_info from object file 2410test.o
+9e0      5c       DBUG RO  .debug_info from object file 2410test.o
+a3c      5c       DBUG RO  .debug_info from object file 2410test.o
+a98      5c       DBUG RO  .debug_info from object file 2410test.o
+af4      58       DBUG RO  .debug_info from object file 2410test.o
+b4c      58       DBUG RO  .debug_info from object file 2410test.o
+ba4      2c0      DBUG RO  .debug_info from object file 2410test.o
+e64      80       DBUG RO  .debug_info from object file 2410test.o
+ee4      5c       DBUG RO  .debug_info from object file 2410test.o
+f40      58       DBUG RO  .debug_info from object file 2410test.o
+f98      1b0      DBUG RO  .debug_info from object file 2410test.o
+1148     58       DBUG RO  .debug_info from object file 2410test.o
+11a0     58       DBUG RO  .debug_info from object file 2410test.o
+11f8     58       DBUG RO  .debug_info from object file 2410test.o
+1250     58       DBUG RO  .debug_info from object file 2410test.o
+12a8     58       DBUG RO  .debug_info from object file 2410test.o
+1300     5c       DBUG RO  .debug_info from object file 2410test.o
+135c     58       DBUG RO  .debug_info from object file 2410test.o
+13b4     58       DBUG RO  .debug_info from object file 2410test.o
+140c     5c       DBUG RO  .debug_info from object file 2410test.o
+1468     58       DBUG RO  .debug_info from object file 2410test.o
+14c0     14c      DBUG RO  .debug_info from object file 2410test.o
+160c     5c       DBUG RO  .debug_info from object file 2410lib.o
+1668     70       DBUG RO  .debug_info from object file 2410lib.o
+16d8     68       DBUG RO  .debug_info from object file 2410lib.o
+1740     160      DBUG RO  .debug_info from object file 2410lib.o
+18a0     ec       DBUG RO  .debug_info from object file 2410lib.o
+198c     74       DBUG RO  .debug_info from object file 2410lib.o
+1a00     4f4      DBUG RO  .debug_info from object file 2410lib.o
+1ef4     17c      DBUG RO  .debug_info from object file mmu.o
+2070     408      DBUG RO  .debug_info from object file 2410iis.o
+2478     68       DBUG RO  .debug_info from object file timer.o
+24e0     288      DBUG RO  .debug_info from object file timer.o
+2768     30c      DBUG RO  .debug_info from object file 2410RTC.o
+2a74     34c      DBUG RO  .debug_info from object file 2410IIC.o
+2dc0     13c      DBUG RO  .debug_info from object file 2410int.o
+2efc     5c       DBUG RO  .debug_info from object file 2410swi.o
+2f58     d0       DBUG RO  .debug_info from object file 2410swi.o
+3028     1e4      DBUG RO  .debug_info from object file 2410etc.o
+320c     1d8      DBUG RO  .debug_info from object file adc.o
+33e4     258      DBUG RO  .debug_info from object file dma.o
+363c     274      DBUG RO  .debug_info from object file dma2.o
+38b0     108      DBUG RO  .debug_info from object file eint.o
+39b8     3a0      DBUG RO  .debug_info from object file extdma.o
+3d58     644      DBUG RO  .debug_info from object file k9s1208.o
+439c     284      DBUG RO  .debug_info from object file nwait.o
+4620     f4       DBUG RO  .debug_info from object file sdi.o
+4714     694      DBUG RO  .debug_info from object file sdi.o
+4da8     c4       DBUG RO  .debug_info from object file stone.o
+4e6c     5c       DBUG RO  .debug_info from object file ts_auto.o
+4ec8     e4       DBUG RO  .debug_info from object file ts_auto.o
+4fac     5c       DBUG RO  .debug_info from object file ts_sep.o
+5008     d0       DBUG RO  .debug_info from object file ts_sep.o
+50d8     1d0      DBUG RO  .debug_info from object file lcdlib.o
+52a8     9c       DBUG RO  .debug_info from object file lcd.o
+5344     890      DBUG RO  .debug_info from object file lcd.o
+5bd4     110      DBUG RO  .debug_info from object file power.o
+5ce4     1d8      DBUG RO  .debug_info from object file idle.o
+5ebc     328      DBUG RO  .debug_info from object file PowerOff.o
+61e4     5c       DBUG RO  .debug_info from object file flash.o
+6240     5c       DBUG RO  .debug_info from object file flash.o
+629c     19c      DBUG RO  .debug_info from object file flash.o
+6438     a44      DBUG RO  .debug_info from object file pwr_c.o
+6e7c     f0       DBUG RO  .debug_info from object file etc.o
+6f6c     380      DBUG RO  .debug_info from object file pd6710.o
+72ec     570      DBUG RO  .debug_info from object file glib.o
+785c     320      DBUG RO  .debug_info from object file am29f800.o
+7b7c     1a0      DBUG RO  .debug_info from object file palette.o
+7d1c     58       DBUG RO  .debug_info from object file IrDA.o
+7d74     330      DBUG RO  .debug_info from object file IrDA.o
+80a4     578      DBUG RO  .debug_info from object file uart0.o
+861c     35c      DBUG RO  .debug_info from object file uart1.o
+8978     278      DBUG RO  .debug_info from object file uart2.o
+8bf0     47c      DBUG RO  .debug_info from object file spi.o
+906c     194      DBUG RO  .debug_info from object file usbfifo.o
+9200     3c0      DBUG RO  .debug_info from object file strata32.o
+95c0     1dc      DBUG RO  .debug_info from object file cache.o
+979c     12c      DBUG RO  .debug_info from object file cpuspeed.o
+98c8     f8       DBUG RO  .debug_info from object file game.o
+0        2c       DBUG RO  .debug_line from object file 2410test.o
+2c       2c       DBUG RO  .debug_line from object file 2410test.o
+58       28       DBUG RO  .debug_line from object file 2410test.o
+80       2c       DBUG RO  .debug_line from object file 2410test.o
+ac       38       DBUG RO  .debug_line from object file 2410test.o
+e4       2c       DBUG RO  .debug_line from object file 2410test.o
+110      2c       DBUG RO  .debug_line from object file 2410test.o
+13c      2c       DBUG RO  .debug_line from object file 2410test.o
+168      2c       DBUG RO  .debug_line from object file 2410test.o
+194      2c       DBUG RO  .debug_line from object file 2410test.o
+1c0      2c       DBUG RO  .debug_line from object file 2410test.o
+1ec      2c       DBUG RO  .debug_line from object file 2410test.o
+218      2c       DBUG RO  .debug_line from object file 2410test.o
+244      28       DBUG RO  .debug_line from object file 2410test.o
+26c      2c       DBUG RO  .debug_line from object file 2410test.o
+298      28       DBUG RO  .debug_line from object file 2410test.o
+2c0      28       DBUG RO  .debug_line from object file 2410test.o
+2e8      28       DBUG RO  .debug_line from object file 2410test.o
+310      28       DBUG RO  .debug_line from object file 2410test.o
+338      2c       DBUG RO  .debug_line from object file 2410test.o
+364      2c       DBUG RO  .debug_line from object file 2410test.o
+390      34       DBUG RO  .debug_line from object file 2410test.o
+3c4      28       DBUG RO  .debug_line from object file 2410test.o
+3ec      28       DBUG RO  .debug_line from object file 2410test.o
+414      28       DBUG RO  .debug_line from object file 2410test.o
+43c      2c       DBUG RO  .debug_line from object file 2410test.o
+468      2c       DBUG RO  .debug_line from object file 2410test.o
+494      2c       DBUG RO  .debug_line from object file 2410test.o
+4c0      28       DBUG RO  .debug_line from object file 2410test.o
+4e8      28       DBUG RO  .debug_line from object file 2410test.o
+510      2c       DBUG RO  .debug_line from object file 2410test.o
+53c      28       DBUG RO  .debug_line from object file 2410test.o
+564      2c       DBUG RO  .debug_line from object file 2410test.o
+590      28       DBUG RO  .debug_line from object file 2410test.o
+5b8      28       DBUG RO  .debug_line from object file 2410test.o
+5e0      28       DBUG RO  .debug_line from object file 2410test.o
+608      28       DBUG RO  .debug_line from object file 2410test.o
+630      28       DBUG RO  .debug_line from object file 2410test.o
+658      28       DBUG RO  .debug_line from object file 2410test.o
+680      28       DBUG RO  .debug_line from object file 2410test.o
+6a8      2c       DBUG RO  .debug_line from object file 2410test.o
+6d4      28       DBUG RO  .debug_line from object file 2410test.o
+6fc      28       DBUG RO  .debug_line from object file 2410test.o
+724      2c       DBUG RO  .debug_line from object file 2410test.o
+750      28       DBUG RO  .debug_line from object file 2410test.o
+778      2cc      DBUG RO  .debug_line from object file 2410test.o
+a44      2c       DBUG RO  .debug_line from object file 2410lib.o
+a70      28       DBUG RO  .debug_line from object file 2410lib.o
+a98      28       DBUG RO  .debug_line from object file 2410lib.o
+ac0      280      DBUG RO  .debug_line from object file 2410lib.o
+d40      f0       DBUG RO  .debug_line from object file mmu.o
+e30      2b8      DBUG RO  .debug_line from object file 2410iis.o
+10e8     188      DBUG RO  .debug_line from object file timer.o
+1270     144      DBUG RO  .debug_line from object file 2410RTC.o
+13b4     264      DBUG RO  .debug_line from object file 2410IIC.o
+1618     ec       DBUG RO  .debug_line from object file 2410int.o
+1704     2c       DBUG RO  .debug_line from object file 2410swi.o
+1730     c8       DBUG RO  .debug_line from object file 2410swi.o
+17f8     100      DBUG RO  .debug_line from object file 2410etc.o
+18f8     144      DBUG RO  .debug_line from object file adc.o
+1a3c     12c      DBUG RO  .debug_line from object file dma.o
+1b68     130      DBUG RO  .debug_line from object file dma2.o
+1c98     f4       DBUG RO  .debug_line from object file eint.o
+1d8c     2c4      DBUG RO  .debug_line from object file extdma.o
+2050     450      DBUG RO  .debug_line from object file k9s1208.o
+24a0     108      DBUG RO  .debug_line from object file nwait.o
+25a8     3b4      DBUG RO  .debug_line from object file sdi.o
+295c     10c      DBUG RO  .debug_line from object file stone.o
+2a68     2c       DBUG RO  .debug_line from object file ts_auto.o
+2a94     c4       DBUG RO  .debug_line from object file ts_auto.o
+2b58     2c       DBUG RO  .debug_line from object file ts_sep.o
+2b84     f8       DBUG RO  .debug_line from object file ts_sep.o
+2c7c     2ec      DBUG RO  .debug_line from object file lcdlib.o
+2f68     678      DBUG RO  .debug_line from object file lcd.o
+35e0     118      DBUG RO  .debug_line from object file power.o
+36f8     138      DBUG RO  .debug_line from object file idle.o
+3830     234      DBUG RO  .debug_line from object file PowerOff.o
+3a64     2c       DBUG RO  .debug_line from object file flash.o
+3a90     2c       DBUG RO  .debug_line from object file flash.o
+3abc     120      DBUG RO  .debug_line from object file flash.o
+3bdc     258      DBUG RO  .debug_line from object file pwr_c.o
+3e34     d4       DBUG RO  .debug_line from object file etc.o
+3f08     178      DBUG RO  .debug_line from object file pd6710.o
+4080     2c8      DBUG RO  .debug_line from object file glib.o
+4348     1c0      DBUG RO  .debug_line from object file am29f800.o
+4508     e4       DBUG RO  .debug_line from object file palette.o
+45ec     28       DBUG RO  .debug_line from object file IrDA.o
+4614     1a8      DBUG RO  .debug_line from object file IrDA.o
+47bc     33c      DBUG RO  .debug_line from object file uart0.o
+4af8     2e4      DBUG RO  .debug_line from object file uart1.o
+4ddc     230      DBUG RO  .debug_line from object file uart2.o
+500c     228      DBUG RO  .debug_line from object file spi.o
+5234     cc       DBUG RO  .debug_line from object file usbfifo.o
+5300     190      DBUG RO  .debug_line from object file strata32.o
+5490     158      DBUG RO  .debug_line from object file cache.o
+55e8     178      DBUG RO  .debug_line from object file cpuspeed.o
+5760     f0       DBUG RO  .debug_line from object file game.o
+0        dc       DBUG RO  .debug_loc from object file 2410test.o
+dc       1a0      DBUG RO  .debug_loc from object file 2410lib.o
+27c      6c       DBUG RO  .debug_loc from object file mmu.o
+2e8      1d8      DBUG RO  .debug_loc from object file 2410iis.o
+4c0      1bc      DBUG RO  .debug_loc from object file timer.o
+67c      1a8      DBUG RO  .debug_loc from object file 2410RTC.o
+824      130      DBUG RO  .debug_loc from object file 2410IIC.o
+954      bc       DBUG RO  .debug_loc from object file 2410int.o
+a10      64       DBUG RO  .debug_loc from object file 2410swi.o
+a74      104      DBUG RO  .debug_loc from object file 2410etc.o
+b78      9c       DBUG RO  .debug_loc from object file adc.o
+c14      130      DBUG RO  .debug_loc from object file dma.o
+d44      13c      DBUG RO  .debug_loc from object file dma2.o
+e80      d4       DBUG RO  .debug_loc from object file eint.o
+f54      1b8      DBUG RO  .debug_loc from object file extdma.o
+110c     2e0      DBUG RO  .debug_loc from object file k9s1208.o
+13ec     160      DBUG RO  .debug_loc from object file nwait.o
+154c     558      DBUG RO  .debug_loc from object file sdi.o
+1aa4     2c       DBUG RO  .debug_loc from object file stone.o
+1ad0     64       DBUG RO  .debug_loc from object file ts_auto.o
+1b34     7c       DBUG RO  .debug_loc from object file ts_sep.o
+1bb0     58       DBUG RO  .debug_loc from object file lcdlib.o
+1c08     42c      DBUG RO  .debug_loc from object file lcd.o
+2034     9c       DBUG RO  .debug_loc from object file power.o
+20d0     158      DBUG RO  .debug_loc from object file idle.o
+2228     2b4      DBUG RO  .debug_loc from object file PowerOff.o
+24dc     88       DBUG RO  .debug_loc from object file flash.o
+2564     2b0      DBUG RO  .debug_loc from object file pwr_c.o
+2814     64       DBUG RO  .debug_loc from object file etc.o
+2878     1a4      DBUG RO  .debug_loc from object file pd6710.o
+2a1c     2e8      DBUG RO  .debug_loc from object file glib.o
+2d04     194      DBUG RO  .debug_loc from object file am29f800.o
+2e98     84       DBUG RO  .debug_loc from object file palette.o
+2f1c     138      DBUG RO  .debug_loc from object file IrDA.o
+3054     380      DBUG RO  .debug_loc from object file uart0.o
+33d4     31c      DBUG RO  .debug_loc from object file uart1.o
+36f0     234      DBUG RO  .debug_loc from object file uart2.o
+3924     1f0      DBUG RO  .debug_loc from object file spi.o
+3b14     9c       DBUG RO  .debug_loc from object file usbfifo.o
+3bb0     124      DBUG RO  .debug_loc from object file strata32.o
+3cd4     a4       DBUG RO  .debug_loc from object file cache.o
+3d78     58       DBUG RO  .debug_loc from object file cpuspeed.o
+3dd0     d4       DBUG RO  .debug_loc from object file game.o
+0        15c      DBUG RO  .debug_macinfo from object file 2410test.o
+15c      10       DBUG RO  .debug_macinfo from object file 2410test.o
+16c      80       DBUG RO  .debug_macinfo from object file 2410test.o
+1ec      124      DBUG RO  .debug_macinfo from object file 2410test.o
+310      4508     DBUG RO  .debug_macinfo from object file 2410test.o
+4818     11c      DBUG RO  .debug_macinfo from object file 2410test.o
+4934     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4948     14       DBUG RO  .debug_macinfo from object file 2410test.o
+495c     5c       DBUG RO  .debug_macinfo from object file 2410test.o
+49b8     14       DBUG RO  .debug_macinfo from object file 2410test.o
+49cc     14       DBUG RO  .debug_macinfo from object file 2410test.o
+49e0     114      DBUG RO  .debug_macinfo from object file 2410test.o
+4af4     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4b08     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4b18     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4b2c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4b3c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4b4c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4b5c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4b6c     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4b80     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4b94     1c0      DBUG RO  .debug_macinfo from object file 2410test.o
+4d54     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4d64     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4d74     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4d84     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4d98     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4dac     14       DBUG RO  .debug_macinfo from object file 2410test.o
+4dc0     34       DBUG RO  .debug_macinfo from object file 2410test.o
+4df4     10       DBUG RO  .debug_macinfo from object file 2410test.o
+4e04     980      DBUG RO  .debug_macinfo from object file 2410test.o
+5784     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5794     14       DBUG RO  .debug_macinfo from object file 2410test.o
+57a8     10       DBUG RO  .debug_macinfo from object file 2410test.o
+57b8     68       DBUG RO  .debug_macinfo from object file 2410test.o
+5820     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5830     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5840     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5850     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5860     10       DBUG RO  .debug_macinfo from object file 2410test.o
+5870     7bc      DBUG RO  .debug_macinfo from object file 2410test.o
+602c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+603c     10       DBUG RO  .debug_macinfo from object file 2410test.o
+604c     14       DBUG RO  .debug_macinfo from object file 2410test.o
+6060     10       DBUG RO  .debug_macinfo from object file 2410test.o
+6070     274      DBUG RO  .debug_macinfo from object file 2410test.o
+62e4     118      DBUG RO  .debug_macinfo from object file 2410lib.o
+63fc     274      DBUG RO  .debug_macinfo from object file 2410lib.o
+6670     1c       DBUG RO  .debug_macinfo from object file 2410lib.o
+668c     148      DBUG RO  .debug_macinfo from object file 2410lib.o
+67d4     188      DBUG RO  .debug_macinfo from object file 2410lib.o
+695c     1ec      DBUG RO  .debug_macinfo from object file 2410lib.o
+6b48     1e4      DBUG RO  .debug_macinfo from object file 2410lib.o
+6d2c     1d4      DBUG RO  .debug_macinfo from object file mmu.o
+6f00     25c      DBUG RO  .debug_macinfo from object file 2410iis.o
+715c     28       DBUG RO  .debug_macinfo from object file timer.o
+7184     1cc      DBUG RO  .debug_macinfo from object file timer.o
+7350     1c8      DBUG RO  .debug_macinfo from object file 2410RTC.o
+7518     1d0      DBUG RO  .debug_macinfo from object file 2410IIC.o
+76e8     1d4      DBUG RO  .debug_macinfo from object file 2410int.o
+78bc     14       DBUG RO  .debug_macinfo from object file 2410swi.o
+78d0     1d8      DBUG RO  .debug_macinfo from object file 2410swi.o
+7aa8     27c      DBUG RO  .debug_macinfo from object file 2410etc.o
+7d24     1fc      DBUG RO  .debug_macinfo from object file adc.o
+7f20     1d4      DBUG RO  .debug_macinfo from object file dma.o
+80f4     1d4      DBUG RO  .debug_macinfo from object file dma2.o
+82c8     1d4      DBUG RO  .debug_macinfo from object file eint.o
+849c     2e4      DBUG RO  .debug_macinfo from object file extdma.o
+8780     350      DBUG RO  .debug_macinfo from object file k9s1208.o
+8ad0     27c      DBUG RO  .debug_macinfo from object file nwait.o
+8d4c     19c      DBUG RO  .debug_macinfo from object file sdi.o
+8ee8     210      DBUG RO  .debug_macinfo from object file sdi.o
+90f8     1d0      DBUG RO  .debug_macinfo from object file stone.o
+92c8     14       DBUG RO  .debug_macinfo from object file ts_auto.o
+92dc     1e8      DBUG RO  .debug_macinfo from object file ts_auto.o
+94c4     14       DBUG RO  .debug_macinfo from object file ts_sep.o
+94d8     1e4      DBUG RO  .debug_macinfo from object file ts_sep.o
+96bc     1d0      DBUG RO  .debug_macinfo from object file lcdlib.o
+988c     1dc      DBUG RO  .debug_macinfo from object file lcd.o
+9a68     1e8      DBUG RO  .debug_macinfo from object file power.o
+9c50     1d4      DBUG RO  .debug_macinfo from object file idle.o
+9e24     34c      DBUG RO  .debug_macinfo from object file PowerOff.o
+a170     14       DBUG RO  .debug_macinfo from object file flash.o
+a184     14       DBUG RO  .debug_macinfo from object file flash.o
+a198     1e0      DBUG RO  .debug_macinfo from object file flash.o
+a378     2d4      DBUG RO  .debug_macinfo from object file pwr_c.o
+a64c     1e0      DBUG RO  .debug_macinfo from object file etc.o
+a82c     258      DBUG RO  .debug_macinfo from object file pd6710.o
+aa84     1cc      DBUG RO  .debug_macinfo from object file glib.o
+ac50     260      DBUG RO  .debug_macinfo from object file am29f800.o
+aeb0     1d4      DBUG RO  .debug_macinfo from object file palette.o
+b084     34       DBUG RO  .debug_macinfo from object file IrDA.o
+b0b8     1e8      DBUG RO  .debug_macinfo from object file IrDA.o
+b2a0     1d4      DBUG RO  .debug_macinfo from object file uart0.o
+b474     1d8      DBUG RO  .debug_macinfo from object file uart1.o
+b64c     1d8      DBUG RO  .debug_macinfo from object file uart2.o
+b824     204      DBUG RO  .debug_macinfo from object file spi.o
+ba28     1cc      DBUG RO  .debug_macinfo from object file usbfifo.o
+bbf4     2ac      DBUG RO  .debug_macinfo from object file strata32.o
+bea0     1d4      DBUG RO  .debug_macinfo from object file cache.o
+c074     270      DBUG RO  .debug_macinfo from object file cpuspeed.o
+c2e4     1d8      DBUG RO  .debug_macinfo from object file game.o
+0        b8       DBUG RO  .debug_pubnames from object file 2410test.o
+b8       180      DBUG RO  .debug_pubnames from object file 2410test.o
+238      20       DBUG RO  .debug_pubnames from object file 2410test.o
+258      e8       DBUG RO  .debug_pubnames from object file 2410test.o
+340      6c       DBUG RO  .debug_pubnames from object file 2410test.o
+3ac      20       DBUG RO  .debug_pubnames from object file 2410lib.o
+3cc      1c       DBUG RO  .debug_pubnames from object file 2410lib.o
+3e8      b0       DBUG RO  .debug_pubnames from object file 2410lib.o
+498      78       DBUG RO  .debug_pubnames from object file 2410lib.o
+510      20       DBUG RO  .debug_pubnames from object file 2410lib.o
+530      198      DBUG RO  .debug_pubnames from object file 2410lib.o
+6c8      48       DBUG RO  .debug_pubnames from object file mmu.o
+710      13c      DBUG RO  .debug_pubnames from object file 2410iis.o
+84c      1c       DBUG RO  .debug_pubnames from object file timer.o
+868      f0       DBUG RO  .debug_pubnames from object file timer.o
+958      c8       DBUG RO  .debug_pubnames from object file 2410RTC.o
+a20      d0       DBUG RO  .debug_pubnames from object file 2410IIC.o
+af0      64       DBUG RO  .debug_pubnames from object file 2410int.o
+b54      3c       DBUG RO  .debug_pubnames from object file 2410swi.o
+b90      84       DBUG RO  .debug_pubnames from object file 2410etc.o
+c14      64       DBUG RO  .debug_pubnames from object file adc.o
+c78      80       DBUG RO  .debug_pubnames from object file dma.o
+cf8      88       DBUG RO  .debug_pubnames from object file dma2.o
+d80      48       DBUG RO  .debug_pubnames from object file eint.o
+dc8      140      DBUG RO  .debug_pubnames from object file extdma.o
+f08      190      DBUG RO  .debug_pubnames from object file k9s1208.o
+1098     80       DBUG RO  .debug_pubnames from object file nwait.o
+1118     84       DBUG RO  .debug_pubnames from object file sdi.o
+119c     220      DBUG RO  .debug_pubnames from object file sdi.o
+13bc     20       DBUG RO  .debug_pubnames from object file stone.o
+13dc     38       DBUG RO  .debug_pubnames from object file ts_auto.o
+1414     30       DBUG RO  .debug_pubnames from object file ts_sep.o
+1444     94       DBUG RO  .debug_pubnames from object file lcdlib.o
+14d8     2c       DBUG RO  .debug_pubnames from object file lcd.o
+1504     360      DBUG RO  .debug_pubnames from object file lcd.o
+1864     54       DBUG RO  .debug_pubnames from object file power.o
+18b8     98       DBUG RO  .debug_pubnames from object file idle.o
+1950     138      DBUG RO  .debug_pubnames from object file PowerOff.o
+1a88     70       DBUG RO  .debug_pubnames from object file flash.o
+1af8     34c      DBUG RO  .debug_pubnames from object file pwr_c.o
+1e44     5c       DBUG RO  .debug_pubnames from object file etc.o
+1ea0     158      DBUG RO  .debug_pubnames from object file pd6710.o
+1ff8     194      DBUG RO  .debug_pubnames from object file glib.o
+218c     104      DBUG RO  .debug_pubnames from object file am29f800.o
+2290     58       DBUG RO  .debug_pubnames from object file palette.o
+22e8     1bc      DBUG RO  .debug_pubnames from object file IrDA.o
+24a4     2f4      DBUG RO  .debug_pubnames from object file uart0.o
+2798     1a0      DBUG RO  .debug_pubnames from object file uart1.o
+2938     138      DBUG RO  .debug_pubnames from object file uart2.o
+2a70     1b4      DBUG RO  .debug_pubnames from object file spi.o
+2c24     54       DBUG RO  .debug_pubnames from object file usbfifo.o
+2c78     150      DBUG RO  .debug_pubnames from object file strata32.o
+2dc8     58       DBUG RO  .debug_pubnames from object file cache.o
+2e20     48       DBUG RO  .debug_pubnames from object file cpuspeed.o
+2e68     48       DBUG RO  .debug_pubnames from object file game.o
+0        50       DBUG RO  C$$fpmap from object file strlen.o
+50       44       DBUG RO  C$$fpmap from object file atoi.o
+94       48       DBUG RO  C$$fpmap from object file vsprintf.o
+dc       7c       DBUG RO  C$$fpmap from object file qsort.o
+158      48       DBUG RO  C$$fpmap from object file strtol.o
+1a0      e8       DBUG RO  C$$fpmap from object file _fp_disp.o
+288      74       DBUG RO  C$$fpmap from object file __vfpntf.o
+2fc      70       DBUG RO  C$$fpmap from object file lib_init.o
+36c      48       DBUG RO  C$$fpmap from object file _strtoul.o
+3b4      90       DBUG RO  C$$fpmap from object file signal.o
+444      4c       DBUG RO  C$$fpmap from object file _sys_msg.o
+490      68       DBUG RO  C$$fpmap from object file oshigh.o
+4f8      44       DBUG RO  C$$fpmap from object file sys_wrch.o
+
+
+Image entry point : 30000000
+Entry area : "Init" from object file 2410init.o
